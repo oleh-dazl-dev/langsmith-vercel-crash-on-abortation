@@ -1,0 +1,26 @@
+{
+  "name": "langsmith-vercel-crash-on-abortation",
+  "version": "1.0.0",
+  "description": "Repo to reproduce this issue https://github.com/langchain-ai/langsmith-sdk/issues/2023",
+  "homepage": "https://github.com/oleh-dazl-dev/langsmith-vercel-crash-on-abortation#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oleh-dazl-dev/langsmith-vercel-crash-on-abortation.git"
+  },
+  "license": "MIT",
+  "author": "oleh-dazl-dev",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node ./src/index.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@ai-sdk/anthropic": "^2.0.17",
+    "ai": "^5.0.44",
+    "dotenv": "^17.2.2",
+    "langsmith": "^0.3.68"
+  }
+}
